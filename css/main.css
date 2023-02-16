@@ -1,21 +1,122 @@
 /* Place CSS styles here */
-html{
+html {
     scroll-behavior: smooth;
-}
-
-
-/* homepage*/
-span{
-    color:#00c200;
-}
-h1{
+  }
+  body {
     color: purple;
-}
-h3{
-    color: palevioletred;
+    /* distribute font to entire site */
+    font-family: 'Merriweather', serif;
+  }
+  /* distribute font to all headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 5px 4px 7px #00c200;
+  }
+  h1 {
+    font-size: 64px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.4;
+    background-color: #efefef;
+  }
+  /* homepage */
+  .tom-and-jerry-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-radius: 12px;
+    padding: 12px 24px;
+  }
+  .tom-and-jerry-enter-image {
+    text-align: center;
+  }
+  .tom-and-jerry-ups-image {
+  }
+  .tom-and-jerry-ups-image img {
+    border: 4px solid red;
+    padding: 20px;
+    margin: 20px;
+  }
+  h1 {
+    color: red;
+  }
+  span {
+    color: #00c200;
+  }
+  /* .cat-capn-crunch {
+    background-color: pink;
+  } */
+  a {
+    color: brown;
+  }
+  a:hover {
+    color: green;
+  }
+  .tom-and-jerry-center {
+    text-align: center;
+  }
+  .val-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    background-color: #dedede;
+  }
+  
+  .val-header1 {
+    text-align: center;
+  }
+  
+  .val-header1 nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .val-featured-image {
+    min-height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/giz2.jpg);
+    /* These 3 rules are normally used in sets for centered background-images */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-p{
-    color: #1b1b1b;
-    background-color: orange;
+.val-intro {
+  background-color: pink;
+  text-align: center;
 }
+.val-smaller-image {
+  width: 20%;
+}
+.val-row-3-tiles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 12px;
+}
+
+.val-row-catalog-item {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer img {
+  width: 40px;
+}  
