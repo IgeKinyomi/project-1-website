@@ -3,9 +3,9 @@ html {
     scroll-behavior: smooth;
   }
   body {
-    color: purple;
+    color: #000000;
     /* distribute font to entire site */
-    font-family: 'Merriweather', serif;
+    font-family: 'Karla', serif;
   }
   /* distribute font to all headings */
   h1,
@@ -56,7 +56,7 @@ html {
     background-color: pink;
   } */
   a {
-    color: brown;
+    color: #000000;
   }
   a:hover {
     color: green;
@@ -64,7 +64,7 @@ html {
   .tom-and-jerry-center {
     text-align: center;
   }
-  .val-header {
+  .snacks-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,17 +72,17 @@ html {
     background-color: #dedede;
   }
   
-  .val-header1 {
+  .snacks-header1 {
     text-align: center;
   }
   
-  .val-header1 nav {
+  .snacks-header1 nav {
     display: flex;
     justify-content: center;
     gap: 30px;
   }
   
-  .val-featured-image {
+  .snacks-featured-image {
     min-height: 300px;
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/giz2.jpg);
     /* These 3 rules are normally used in sets for centered background-images */
@@ -91,14 +91,14 @@ html {
     background-position: center center;
 }
 
-.val-intro {
+.snacks-intro {
   background-color: pink;
   text-align: center;
 }
-.val-smaller-image {
+.snacks-smaller-image {
   width: 20%;
 }
-.val-row-3-tiles {
+.snacks-row-3-tiles {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -107,7 +107,7 @@ html {
   border-radius: 12px;
 }
 
-.val-row-catalog-item {
+.snacks-row-catalog-item {
   display: flex;
   gap: 20px;
 }
