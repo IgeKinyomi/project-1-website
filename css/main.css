@@ -31,8 +31,8 @@ html {
   /* homepage */
   .tom-and-jerry-wrapper {
     max-width: 800px;
-    margin: 0 auto;
-    border: 1px solid #999;
+  
+    border: none;
     border-radius: 12px;
     padding: 12px 24px;
   }
