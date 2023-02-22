@@ -6,6 +6,7 @@ html {
     color: #000000;
     /* distribute font to entire site */
     font-family: 'Karla', serif;
+    background-color: #ebcd79;
   }
   /* distribute font to all headings */
   h1,
@@ -18,7 +19,7 @@ html {
     font-style: italic;
     font-weight: 700;
     text-transform: uppercase;
-    text-shadow: 5px 4px 7px #00c200;
+    text-shadow:5px 4px 7px #0850d2;
   }
   h1 {
     font-size: 64px;
@@ -48,10 +49,10 @@ html {
     margin: 20px;
   }
   h1 {
-    color: red;
+    color: #140303;
   }
   span {
-    color: #00c200;
+    color: #0850d2;
   }
   /* .cat-capn-crunch {
     background-color: pink;
@@ -63,7 +64,7 @@ html {
     color: green;
   }
   .tom-and-jerry-center {
-    text-align: center;
+    text-align: right;
   }
   .snacks-header {
     display: flex;
