@@ -24,6 +24,11 @@ html {
   h1 {
     font-size: 64px;
   }
+
+  h2 {
+    text-align: center;
+  }
+  
   p {
     font-size: 20px;
     line-height: 1.4;
