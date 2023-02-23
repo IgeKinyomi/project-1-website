@@ -28,14 +28,14 @@ html {
   h2 {
     text-align: center;
   }
-  
+
   p {
     font-size: 20px;
     line-height: 1.4;
     display: flex;
     justify-content: center;
-    border-style: double;
   }
+
   /* homepage */
   .tom-and-jerry-wrapper {
     border: none;
@@ -107,6 +107,9 @@ html {
   justify-content: center;
 }
 
+.order-now-change {
+  border-style: double;
+}
 .snacks-smaller-image {
   width: 20%;
 }
