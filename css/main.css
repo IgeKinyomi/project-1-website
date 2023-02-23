@@ -32,8 +32,6 @@ html {
   }
   /* homepage */
   .tom-and-jerry-wrapper {
-    max-width: 800px;
-  
     border: none;
     border-radius: 12px;
     padding: 12px 24px;
@@ -44,7 +42,7 @@ html {
   .tom-and-jerry-ups-image {
   }
   .tom-and-jerry-ups-image img {
-    border: 4px solid red;
+    border: 4px solid #738dbd;
     padding: 20px;
     margin: 20px;
   }
@@ -64,7 +62,7 @@ html {
     color: green;
   }
   .tom-and-jerry-center {
-    text-align: right;
+    text-align: center;
   }
   .snacks-header {
     display: flex;
@@ -97,6 +95,12 @@ html {
   background-color: pink;
   text-align: center;
 }
+
+.snack-intro-content {
+  display: flex;
+  justify-content: center;
+}
+
 .snacks-smaller-image {
   width: 20%;
 }
