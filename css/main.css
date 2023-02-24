@@ -23,7 +23,7 @@ html {
     text-shadow:5px 4px 7px #0850d2;
   }
   h1 {
-    font-size: 64px;
+    font-size: 76px;
   }
 
   h2 {
@@ -45,7 +45,7 @@ html {
     padding: 12px 24px;
   }
 
-  .purple-intro-wrapper {
+  .afterschool-snack {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,12 +53,12 @@ html {
     background-color: #dedede;
   }
 
-  .tom-and-jerry-enter-image {
+  .afterschool-snack-enter-image {
     text-align: center;
   }
-  .tom-and-jerry-ups-image {
+  .afterschool-snack-ups-image {
   }
-  .tom-and-jerry-ups-image img {
+  .afterschool-snack-ups-image img {
     border: 4px solid #738dbd;
     padding: 20px;
     margin: 20px;
@@ -79,7 +79,7 @@ html {
   a:hover {
     color: green;
   }
-  .tom-and-jerry-center {
+  .afterschool-center {
     text-align: center;
   }
   .snacks-header {
