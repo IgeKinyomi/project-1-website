@@ -58,12 +58,22 @@ html {
     text-align: center;
   }
   .afterschool-snack-ups-image {
+    text-align: center;
   }
   .afterschool-snack-ups-image img {
     border: 4px solid #738dbd;
     padding: 20px;
     margin: 20px;
+    width: 200px
   }
+
+  .afterschool-snack-sweet {
+    text-align: center;
+  }
+  .afterschool-snack-sweet2{
+    text-align: center;
+  }
+
   h1 {
     color: #140303;
   }
