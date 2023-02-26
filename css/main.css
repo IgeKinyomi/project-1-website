@@ -24,11 +24,15 @@ html {
     text-shadow:5px 4px 7px #0850d2;
   }
   h1 {
+    text-align: center;
     font-size: 70px;
   }
 
   h2 {
-    text-align: center;
+    padding: 10px;
+  }
+
+  h3 {
     padding: 10px;
   }
 
